@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/react';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
@@ -67,6 +68,7 @@ function App() {
         />
       </main>
       <Footer content={portfolioContent.footer} />
+      <Analytics />
       <SpeedInsights />
     </div>
   );
