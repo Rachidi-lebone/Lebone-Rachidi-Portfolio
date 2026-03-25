@@ -246,7 +246,7 @@ export const projects = [
     summary:
       'Built the daily workflow for sourcing, filtering, and qualifying Upwork opportunities so the team could consistently identify relevant prospects for their service offering.',
     href: 'https://docs.google.com/document/d/11Zv3kgXkBXPIZr0fLBfbB8N4pmoQhiv6GLIbTrU5aOw/edit?tab=t.3vnvxfr6wx0a',
-    featured: true,
+    featured: false,
   },
   {
     title: 'Proposal Template System for Loom-Based Applications',
@@ -290,6 +290,13 @@ export const projects = [
     href: 'https://docs.google.com/document/d/11Zv3kgXkBXPIZr0fLBfbB8N4pmoQhiv6GLIbTrU5aOw/edit?tab=t.29w4lvzy81g',
     featured: false,
   },
+  {
+    title: 'Website Design & Build Projects',
+    summary:
+      'Built and launched three websites across personal branding and live business use cases, handling site structure, content direction, build workflows, deployment, and functional lead-generation elements from concept to launch.',
+    href: 'https://docs.google.com/document/d/11Zv3kgXkBXPIZr0fLBfbB8N4pmoQhiv6GLIbTrU5aOw/edit?tab=t.382i70nd44tv',
+    featured: true,
+  },
 ];
 
 export const skills = [
@@ -303,7 +310,7 @@ export const skills = [
   'Customer communication workflows',
   'Stakeholder follow-through',
   'Record-keeping and reporting',
-  'AI-assisted research and execution',
+  'Vibe Coding',
   'Tool adoption and workflow experimentation',
 ];
 
@@ -323,6 +330,12 @@ export const tools = [
   'OpenAI Codex',
   'Google AI Studio',
   'WebSim',
+  'Google Stitch',
+  'Github',
+  'Vercel',
+  'Cloudflare',
+  'AntiGravity',
+  'VS Code',
 ];
 
 export const protocolSteps = [

@@ -45,7 +45,7 @@ function DiagnosticShuffler({ item, prefersReducedMotion }) {
       <p className="feature-card__description">{item.descriptor}</p>
 
       <div className="mt-8 flex flex-1 items-end">
-        <div className="relative h-full min-h-[19rem] w-full">
+        <div className="relative h-full min-h-[21rem] w-full">
           {stack.map((card, index) => (
             <div
               key={card.title}
@@ -120,7 +120,7 @@ function TelemetryTypewriter({ item, prefersReducedMotion }) {
       <p className="feature-card__description">{item.descriptor}</p>
 
       <div className="mt-8 flex flex-1">
-        <div className="flex h-full min-h-[19rem] w-full flex-col rounded-[1.75rem] border border-moss/10 bg-charcoal p-5 text-cream shadow-soft">
+        <div className="flex h-full min-h-[21rem] w-full flex-col rounded-[1.75rem] border border-moss/10 bg-charcoal p-5 text-cream shadow-soft">
           <div className="flex items-center justify-between gap-4">
             <span className="inline-flex items-center gap-2 font-mono text-[0.62rem] uppercase tracking-[0.28em] text-cream/70">
               <span className="h-2.5 w-2.5 animate-pulse rounded-full bg-clay" />
@@ -238,7 +238,7 @@ function CursorProtocolScheduler({ item, prefersReducedMotion }) {
       <div className="mt-8 flex flex-1">
         <div
           ref={containerRef}
-          className="relative flex h-full min-h-[19rem] w-full flex-col overflow-hidden rounded-[1.75rem] border border-moss/10 bg-gradient-to-br from-white to-mist p-5 shadow-soft"
+          className="relative flex h-full min-h-[21rem] w-full flex-col overflow-hidden rounded-[1.75rem] border border-moss/10 bg-gradient-to-br from-white to-mist p-5 shadow-soft"
         >
           <div className="flex items-center justify-between gap-3">
             <div>
